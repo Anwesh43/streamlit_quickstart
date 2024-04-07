@@ -22,3 +22,10 @@ st.dataframe({
 })
 
 st.dataframe(df.stack())
+
+st.dataframe(df.min())
+
+st.dataframe(df.max())
+
+
+st.dataframe(df.count())
